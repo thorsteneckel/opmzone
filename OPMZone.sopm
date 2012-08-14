@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>OPMZone</Name>
+    <Version>1.0.1</Version>
+    <Framework>2.4.x</Framework>
+    <Framework>3.0.x</Framework>
+    <Framework>3.1.x</Framework>
+    <Vendor>OPMZone</Vendor>
+    <URL>http://opmzone.org/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Another OPM online platform.</Description>
+    <Description Lang="de">Eine OPM Online Platform.</Description>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/OPMZone.xml"/>
+    </Filelist>
+    <IntroInstall Type="pre" Title="Pre-Install Information" Lang="en"><![CDATA[
+        <br/>
+        <br/>
+        Welcome to <u>OPMZone</u>!
+        <br/>
+        <br/>
+
+        <p>
+        You are about to install the access to OPMZone.org where you can get addons for OTRS for free.
+        </p>
+<br/>
+<br/>
+        <p>
+For more see: <a href="http://OPMZone.org/">http://OPMZone.org/</a>
+        </p>
+        <br/>
+        <br/>
+        <p>
+        Your OPMZone.org Team!
+        </p>
+        <br/>
+        <br/>
+    ]]></IntroInstall>
+    <IntroInstall Type="pre" Title="Pre-Installations-Information" Lang="de"><![CDATA[
+        <br/>
+        <br/>
+        Herzlich Willkommen zu <u>OPMZone</u>!
+        <br/>
+        <br/>
+        <p>
+        Sie sind gerade dabei, den Zugriff auf OPMZone.org zu installieren. Hierüber haben sie Zugriff auf OTRS Addons. 
+        </p>
+        <br/>
+        <br/>
+        <p>
+Für weitere Informationen siehe: <a href="http://OPMZone.org/">http://OPMZone.org/</a>
+        </p>
+        <br/>
+        <br/>
+        <p>
+        Ihr OPMZone.org Team!
+        </p>
+        <br/>
+    ]]></IntroInstall>
+</otrs_package>

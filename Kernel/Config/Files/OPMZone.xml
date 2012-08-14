@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Changes">
+    <ConfigItem Name="Package::RepositoryRoot" Required="0" Valid="1" ConfigLevel="200">
+        <Description Translatable="1">Defines the location to get online repository list for additional packages. The first available result will be used.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Package</SubGroup>
+        <Setting>
+            <Array>
+                <Item>http://packages.opmzone.org/repository.xml</Item>
+                <Item>http://ftp.otrs.org/pub/otrs/misc/packages/repository.xml</Item>
+                <Item>http://otrs.org/repository.xml</Item>
+            </Array>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
